@@ -11,6 +11,10 @@ On your workers, set
 
     $MinerStatusURL = "http://your.website.com/miner.php"
 
+Or add to your commands in your start.bat file as
+
+    -MinerStatusURL http://your.website.com/miner.php
+
 ## What information is reported?
 
 * Your BTC address, which is needed to lookup your workers
